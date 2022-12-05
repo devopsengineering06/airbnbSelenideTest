@@ -1,0 +1,1 @@
+{"uuid":"9bdc2ddf-5e12-4175-9c8f-3aa4b8306d29","name":"com.airbnbselenidetest.MainPageTest","children":["070ac105-9f7c-4622-bc31-735478a10c0f"],"befores":[{"name":"setUpAll","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1670245281426,"stop":1670245281446}],"afters":[],"start":1670245281355,"stop":1670245291206}
