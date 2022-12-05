@@ -15,10 +15,21 @@ public class LaunchBrowser {
     @Test
     public void launchBrowserTest() {
 
-        System.setProperty("selenide.browser","firefox");
-        // mvn clean install -Dselenide.browser="firefox"
 
+//        ------------------------ 1. yol------------------------
         //Configuration.browser = "firefox";
+        Configuration.browser = "chrome";
+        Configuration.headless = true;
+//        ------------------------ 2. yol------------------------
+        //System.setProperty("selenide.browser","chrome");
+        // mvn clean install -Dselenide.browser="chrome"       --> Jenkins  için yazılacak code
+
+//        veya başka bir tarayıcı için test
+
+        //System.setProperty("selenide.browser","firefox");
+        // mvn clean install -Dselenide.browser="firefox"       --> Jenkins  için yazılacak code
+
+
         open("https://www.google.com.tr");
         $(By.name("q")).setValue("Naveen AutomationLabs");
         $(By.name("btnK")).click();
