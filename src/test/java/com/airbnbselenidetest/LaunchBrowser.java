@@ -19,7 +19,7 @@ public class LaunchBrowser {
         //Configuration.browser = "firefox";
         Configuration.browser = "chrome";
 //  ------------------------      Tarayıcılar açılmadan test yapılsın-------------------
-        Configuration.headless = false;
+        Configuration.headless = true;
 //        ------------------------ 2. yol------------------------
         //System.setProperty("selenide.browser","chrome");
         // mvn clean install -Dselenide.browser="chrome"       --> Jenkins  için yazılacak code
